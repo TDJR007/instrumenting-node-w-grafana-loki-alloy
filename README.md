@@ -33,4 +33,5 @@ EOF
 
 sudo systemctl restart alloy
 sudo systemctl status alloy --no-pager
+sudo systemctl enable --now alloy
 ```
